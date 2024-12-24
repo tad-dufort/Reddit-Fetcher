@@ -1,11 +1,11 @@
 {
-	"name": "meme-app",
+	"name": "reddit-fetcher",
 	"version": "1.0.0",
-	"description": "A Random Meme App Made In Electron",
+	"description": "An electron app that fetches random images from a specified subreddit",
 	"main": "main.js",
 	"scripts": {
 		"start": "electron main.js",
-		"build": "electron-packager . meme-app --out=../build/win --platform=win32 --arch=x64 app-version=1.0 --icon=assets/icons/appIcon.ico --overwrite"
+		"build": "electron-packager . Reddit-Fetcher --out=../build/win --platform=win32 --arch=x64 app-version=1.0 --icon=assets/icons/icon.ico --overwrite"
 	},
 	"author": "Tad Dufort",
 	"license": "CC0-1.0",

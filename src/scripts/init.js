@@ -11,9 +11,9 @@ fs.readFile(`${userHome}/data.txt`, "utf8", function (error, data) {
 	theme.setAttribute(`href`, `./styles/styles-${data}.css`);
 	ipcRenderer.send(`${data}-theme`);
 	if (data === "dark") {
-		button.innerHTML = "🌙";
+		button.innerHTML = `<img src="./assets/UI/Moon.png" height="20px" class="uiImage">`;
 	} else {
-		button.innerHTML = "☀️";
+		button.innerHTML = `<img src="./assets/UI/Sun.png" height="20px" class="uiImage">`;
 	}
 });
 

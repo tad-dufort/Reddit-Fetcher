@@ -2,5 +2,7 @@ node_modules/
 .env
 build/
 Output/
-Bat to Exe.exe
 .vscode
+Convert.exe
+settings
+Bundle Installer.bat

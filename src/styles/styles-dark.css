@@ -1,0 +1,28 @@
+*,
+html {
+  color: white;
+}
+
+.button {
+  cursor: pointer;
+  transition-duration: 0.2s;
+  background-color: rgba(255, 255, 255, 0.062745098);
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.1882352941);
+}
+
+.subSelect {
+  background-color: rgba(255, 255, 255, 0.062745098);
+}
+.subSelect:hover {
+  background-color: rgba(255, 255, 255, 0.1882352941);
+}
+
+.dragBar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2666666667);
+  width: 100%;
+  height: 38px;
+  z-index: 100;
+}/*# sourceMappingURL=styles-dark.css.map */

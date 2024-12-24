@@ -1,0 +1,34 @@
+*,
+html {
+	color: black;
+}
+
+.button {
+	cursor: pointer;
+	transition-duration: 0.2s;
+	background-color: #ffffff66;
+
+	&:hover {
+		background-color: #ffffffcc;
+	}
+}
+
+.subSelect {
+	background-color: #ffffff66;
+
+	&:hover {
+		background-color: #ffffffcc;
+	}
+}
+
+.uiImage {
+	filter: invert(100%)
+}
+
+.dragBar {
+	position: fixed;
+	background-color: #ffffff66;
+	width: 100%;
+	height: 38px;
+	z-index: 100;
+}

@@ -1,3 +1,35 @@
+::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdEHlC0uHyEMjOx5AXziLP2S0Opwf5+a15umIwg==
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSjk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSDk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpSI=
+::egkzugNsPRvcWATEpCI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAnk
+::YxY4rhs+aU+IeA==
+::cxY6rQJ7JhzQF1fEqQJhZksaHErSXA==
+::ZQ05rAF9IBncCkqN+0xwdVsFAlTMbCXqZg==
+::ZQ05rAF9IAHYFVzEqQICLR9QRRDCGm6uBb0Z+og=
+::eg0/rx1wNQPfEVWB+kM9LVsJDDaHOG+zEvg67fz45++V7EgFUYI=
+::fBEirQZwNQPfEVWB+kM9LVsJDGQ=
+::cRolqwZ3JBvQF1fEqQIRJltRQAGBKHm1CPUd+Pi7++XHpEgJV+p/ao7V3ruDYOke60LhZtYrxHVX2NkJCB9RanI=
+::dhA7uBVwLU+EWG2F8AIUPR1bXhDi
+::YQ03rBFzNR3SWATElA==
+::dhAmsQZ3MwfNWATElA==
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRnk
+::YB416Ek+ZW8=
+::
+::
+::978f952a14a936cc963da21a135fa983
 @echo off
 :: setup (set size and UDF 8 text encoding)
 TITLE Initializing . . .

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Memes</title>
+		<link id="theme" href="./styles/styles-dark.css" rel="stylesheet" />
+
+		<script src="./scripts/init.js"></script>
+		<script src="./scripts/switchTheme.js"></script>
+		<script src="./scripts/getMeme.js"></script>
+
+		<link rel="icon" type="image/png" href="./assets/icons/icon.png" />
+	</head>
+	<body>
+		<div class="drag dragBar shadow">
+			<button
+				class="button barButton exitButton noDrag shadow unselectable"
+				type="button"
+				onClick="window.close()"
+			>
+				✖
+			</button>
+			<button
+				class="button barButton themeButton noDrag shadow unselectable"
+				id="themeButton"
+				type="button"
+				onClick="switchTheme()"
+			>
+				🌙
+			</button>
+			<select
+				class="subSelect noDrag shadow unselectable"
+				name="subs"
+				id="subs"
+			>
+				<option value="memes">r/Memes</option>
+				<option value="meirl">r/MeIRL</option>
+				<option value="dankmemes">r/DankMemes</option>
+				<option value="wholesomememes">r/WholesomeMemes</option>
+			</select>
+		</div>
+		<div id="center" class="center">
+			<button
+				class="button memeButton noDrag shadow unselectable"
+				type="button"
+				onClick="getMeme()"
+			>
+				Click for a new meme!
+			</button>
+			<h1 class="unselectable">Memes</h1>
+			<a id="memeLink">
+				<img class="memeImage shadow" id="memeImage" width="500" />
+			</a>
+			<pre style="font-size: 100px"> </pre>
+		</div>
+	</body>
+</html>
